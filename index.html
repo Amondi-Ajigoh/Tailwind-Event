@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"> <!-- Optional Custom Styles -->
+    <title>Event Website</title>
+</head>
+
+<body class="bg-gray-100">
+    <nav class="bg-white shadow">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+            <a class="text-xl font-bold text-blue-600" href="#">Event Organizers</a>
+            <div>
+                <a class="text-gray-600 hover:text-blue-600 px-4" href="index.html">Home</a>
+                <a class="text-gray-600 hover:text-blue-600 px-4" href="contact.html">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mx-auto mt-10">
+        <h1 class="text-3xl font-bold text-center mb-8">Upcoming Events</h1>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="bg-white rounded-lg shadow-lg p-5">
+                <img src="https://via.placeholder.com/350" alt="Event 1" class="w-full h-48 object-cover rounded-t-lg">
+                <h5 class="font-semibold text-lg mt-4">Event 1</h5>
+                <p class="text-gray-700 mt-2">Description of Event 1. This is a short overview of the event.</p>
+                <a href="event.html" class="mt-4 inline-block bg-blue-600 text-white py-2 px-4 rounded">View Details</a>
+            </div>
+            <div class="bg-white rounded-lg shadow-lg p-5">
+                <img src="https://via.placeholder.com/350" alt="Event 2" class="w-full h-48 object-cover rounded-t-lg">
+                <h5 class="font-semibold text-lg mt-4">Event 2</h5>
+                <p class="text-gray-700 mt-2">Description of Event 2. This is a short overview of the event.</p>
+                <a href="event.html" class="mt-4 inline-block bg-blue-600 text-white py-2 px-4 rounded">View Details</a>
+            </div>
+            <div class="bg-white rounded-lg shadow-lg p-5">
+                <img src="https://via.placeholder.com/350" alt="Event 3" class="w-full h-48 object-cover rounded-t-lg">
+                <h5 class="font-semibold text-lg mt-4">Event 3</h5>
+                <p class="text-gray-700 mt-2">Description of Event 3. This is a short overview of the event.</p>
+                <a href="event.html" class="mt-4 inline-block bg-blue-600 text-white py-2 px-4 rounded">View Details</a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center mt-10 p-4 bg-gray-200">
+        <p>&copy; 2024 Event Organizers. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
